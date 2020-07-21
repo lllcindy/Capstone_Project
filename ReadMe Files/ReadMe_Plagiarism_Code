@@ -1,0 +1,13 @@
+Plagiarism Code: 
+
+Description: This code compares documents word by word to detect plagiarism. This method is called longest string comparision as the code tries to find the commom longest strings in the document. the length os this string can be change, currently it is min 2 words and maximum 25
+
+Input:
+- Make sure code is in the same directory as the risk_factors folder (This is created as output by webscraper code)
+- Mention the company ticker for the company you want to compare in the 'company_name' variable
+
+Other Variations:
+In the compareDocs functions, you can mention the minSize and maxSize arguments to determine the minimum and the maximum length of the string to be compared between two documents.
+Currently, minSize =2 and maxSize = 25
+
+Output: HTML files that show comparisions between two consecutive documents at a time. The HTML files are linked and can be moved 'Next' or 'Previous' to go to next time frame or prevois one respectively
